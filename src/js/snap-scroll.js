@@ -19,10 +19,10 @@
 			classActive:"snap-scroll-active",					//Class applied to a snap point element when snapped
 			hashes:false,										//Use element id in hash
 
-			scrollDelay:200,									//Delay between scroll events needed to trigger scroll action
+			scrollDelay:0,									//Delay between scroll events needed to trigger scroll action
 			wheelInterval:500,									//Interval used for wheel to trigger scroll action
-			animateDuration:100,								//The amount of time it takes to animate to a snap point
-			animateTimeBuffer:100,								//The amount of time to wait after an animation is complete before scrolling can be triggered
+			animateDuration:8000,								//The amount of time it takes to animate to a snap point
+			animateTimeBuffer:600,								//The amount of time to wait after an animation is complete before scrolling can be triggered
 
 			snapTop:true,										//Snap to the top of page regardless of there being an element
 			snapBottom:true,									//Snap to the bottom of page regardless of there being an element
@@ -385,7 +385,7 @@
 		var _instance = null;
 
 		var _vars = {
-			callbackDelay:300,      //Time in ms to wait before calling onResize
+			callbackDelay:0,      //Time in ms to wait before calling onResize
 
 			_lastOrientation:window.orientation,
 			_timeout:0
