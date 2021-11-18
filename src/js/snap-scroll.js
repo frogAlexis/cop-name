@@ -21,7 +21,7 @@
 
 			scrollDelay:0,									//Delay between scroll events needed to trigger scroll action
 			wheelInterval:500,									//Interval used for wheel to trigger scroll action
-			animateDuration:8000,								//The amount of time it takes to animate to a snap point
+			animateDuration:2000,								//The amount of time it takes to animate to a snap point
 			animateTimeBuffer:600,								//The amount of time to wait after an animation is complete before scrolling can be triggered
 
 			snapTop:true,										//Snap to the top of page regardless of there being an element
